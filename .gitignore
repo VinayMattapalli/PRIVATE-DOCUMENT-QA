@@ -1,0 +1,52 @@
+# Ignore virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Ignore model files
+app/models/
+models/
+*.onnx
+*.bin
+*.json
+*.dylib
+*.so
+*.log
+*.wav
+*.tmp
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Ignore heavy model files
+app/models/
+models/
+*.onnx
+*.bin
+*.json
+*.dylib
+*.so
+*.log
+*.wav
+*.tmp
+
+# Ignore Mac system files
+.DS_Store
+# Ignore models and large files
+app/models/
+*.onnx
+*.json
+*.wav
+*.xlsx
+*.pyc
+__pycache__/
+.env
+.DS_Store
+*.log
+*.tmp
+
